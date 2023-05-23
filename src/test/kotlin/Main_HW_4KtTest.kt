@@ -8,7 +8,7 @@ class MainHW4KtTest {
     fun fee1CheckForMaestroMasterCardMonth() {
         val card = "MasterCard"
         val sumMonth = 0
-        val sumTransfer = 50000
+        val sumTransfer = 650000
 
         val result = fee1(card, sumMonth, sumTransfer)
         assertEquals("Превышен лимит перевода", result)
